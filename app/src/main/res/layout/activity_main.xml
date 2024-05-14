@@ -14,4 +14,13 @@
         android:textOff="OFF"
         android:textOn="ON" />
 
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lottie_rawRes="@raw/animation"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
